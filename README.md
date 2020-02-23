@@ -26,13 +26,12 @@ Then, you need to edit pdf2notion.json that is located at home directory.
     "url" : "your table url"
 }
 ```
-*pdf_dir* : array that element are dict.  
-*dir* : directory where PDF files are located.  
-*tags* : tags array.  
-each tag needs to be exist in Notion page where you want to upload.  
-*token_v2* is a value that you can get from Cookeis.  
+**pdf_dir** : array that element are dict.  
+**dir** : directory where PDF files are located.  
+**tags** : tags array. each tag needs to be exist in Notion page where you want to upload.  
+**token_v2** is a value that you can get from Cookeis.  
 ![token_v2](./docs/token_v2.png)  
-*url* : URL that is database.  
+**url** : URL that is database.  
 ![testpage](./docs/testpage.png)  
 
 # Run
