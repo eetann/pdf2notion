@@ -78,9 +78,11 @@ def main():
     for data in json_data["pdf_dir"]:
         for d in Path(data["dir"]).iterdir():
             if d.suffix == ".pdf":
+                remove_images()
                 convert_pdf2image(d)
                 upload2notion(page, d, data["tags"])
-                remove_images()
+                print("{} is uploaded!".format(d))
+    remove_images()
 
 
 if __name__ == "__main__":

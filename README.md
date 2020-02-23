@@ -6,7 +6,7 @@ I use this program to save PDF as images.
 授業で配布されたPDFを画像として保存しておきたいから。  
 
 
-# installution
+# installation
 ```sh
 git clone https://github.com/eetann/pdf2notion
 cd pdf2notion
