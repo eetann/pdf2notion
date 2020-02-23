@@ -1,0 +1,7 @@
+{
+    "pdf_dir" : [
+        {"dir": "./pdf2notion/pdf/", "tags" : ["2020"]}
+    ],
+    "token_v2" : "your token_v2",
+    "url" : "your table url"
+}

@@ -1,2 +1,2 @@
-nose
-sphinx
+notion
+pdf2image
